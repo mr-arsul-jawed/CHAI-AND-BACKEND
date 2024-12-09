@@ -52,7 +52,7 @@ app.get("/arsul",(req, res)=>{
 })
 
 app.get("/github",(req, res)=>{
-   res.json(github)
+   res.json(github )
 })
 
 app.listen(process.env.PORT,()=>{
